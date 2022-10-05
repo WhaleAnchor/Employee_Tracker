@@ -33,7 +33,7 @@ A command line application that allows user to interface with a sql database to 
 * Employees can be added, setting their job titles, salaries, and manager statuses. 
 * The employee's infos can be edited as well!
 * New roles and departments can be added.
-![Employee Tracker](/assets/images/screenshot2.png "More images of the application") 
+![Employee Tracker](/assets/screenshot2.png "More images of the application") 
 
 Here is a link to the repo <a href="https://github.com/WhaleAnchor/Employee-Tracker">github.com/WhaleAnchor/Employee-Tracker</a>
 
