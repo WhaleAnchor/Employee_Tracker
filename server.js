@@ -157,7 +157,7 @@ function viewEmployees() {
     });
 };
 
-// Standard inquirer, but the last prompt will loop through and list the role titles.
+// Standard inquirer, but the last prompt will loop through and list the role titles. This function skips asking the manager_id and creates it automatically.
 function addEmployee() {
   db.query('SELECT * FROM role', function (err, res) {
     if (err) throw err;
@@ -171,11 +171,6 @@ function addEmployee() {
       name: 'last_name',
       type: 'input', 
       message: "What is the employee's last name? "
-    },
-    {
-      name: 'manager_id',
-      type: 'input', 
-      message: "What is the manager's id number?"
     },
     {
       name: 'role', 
@@ -201,7 +196,7 @@ function addEmployee() {
     {
       first_name: answer.first_name,
       last_name: answer.last_name,
-      manager_id: answer.manager_id,
+      manager_id: role_id -1,
       role_id: role_id,
     },
     function (err) {
