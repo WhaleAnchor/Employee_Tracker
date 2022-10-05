@@ -19,7 +19,7 @@ const db = mysql.createConnection(
     // MySQL Username
     user: 'root',
     // TODO: Add your MySQL Password
-    password: 'powerRanger!111',
+    password: '',
     database: 'employee_db'
   }
 );
