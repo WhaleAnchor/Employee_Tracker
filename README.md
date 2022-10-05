@@ -74,7 +74,8 @@ Here is a link to the repo <a href="https://github.com/WhaleAnchor/Employee-Trac
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Run node server.js on a Terminal to create your team!
+Make sure to input your MySQL password in the server.js to start the application.
+Run 'node server.js' on your terminal to start!
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
